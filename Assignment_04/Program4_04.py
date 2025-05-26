@@ -4,7 +4,7 @@
 
     Input List        =  [5, 2, 3, 4, 3, 4, 1, 2, 8, 10]    
     List after filter =  [2, 4, 4, 2, 8, 10]
-    List after map    =  [4, 16, 16, 100]
+    List after map    =  [4, 16, 16, 4, 64, 100]
     Reduce Output is  =   204
 
 '''
