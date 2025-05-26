@@ -17,11 +17,11 @@ def ChkPrime(Value):
     if(Value <= 1):
         return False
 
-    # Logic to Check Prime Number
-    for i in range(2, Value):
-        if(Value % i == 0):
-            return False
-    return True
+# Logic to Check Prime Number
+for i in range(2, Value):
+    if(Value % i == 0):
+        return False
+return True
 
 # Function Defination
 def ChkMax(Value1, Value2):
