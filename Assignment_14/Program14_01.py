@@ -1,9 +1,10 @@
 '''
-Create a class Employee with attributes name, emp_id, and salary. Create objects of this class and print their details using a method.
-
-Expected Output:
-Name: Rohit, ID: 101, Salary: 50000
-
+    Create a class Employee with attributes name, emp_id, and salary. Create objects of this class and print their details using a method.
+    
+    Expected Output:
+                    Name   : Rohit
+                    ID     : 101
+                    Salary : 50000
 '''
 # Class created
 class Employee:
@@ -13,14 +14,15 @@ class Employee:
         self.salary = salary
 
     def display_details(self):
-        print(f"Name: {self.name}, ID: {self.emp_id}, Salary: {self.salary}")
-
+        print("Employee Name : ", self.name)
+        print("Employee ID : ", self.emp_id)
+        print("Employee Name : ", self.salary)
 
 def main():
     # Create Employee object
     emp1 = Employee("Rohit", 101, 50000)
 
-    # Display employee details
+    # Instance Method Call
     emp1.display_details()
 
 # starter
