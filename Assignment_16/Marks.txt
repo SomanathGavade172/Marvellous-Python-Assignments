@@ -1,0 +1,11 @@
+Ajay 80
+Vijay 90
+Raj 75
+Rahul 60
+Sam 88
+Mahesh 78
+Piyush 99
+Sejal 70
+Mala 82
+Priya 74
+Shila 85
