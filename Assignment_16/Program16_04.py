@@ -1,40 +1,51 @@
 '''
-    4. Accept 10 numbers from the user and write them into a file named numbers.txt, each on a new line.
+    4. Accept 10 numbers from the user and write them into a file Named numbers.txt, each on a new line.
 
 '''
-
+# Import Module os and sys
+import os
 import sys
 
-def add_numbers_to_file(filename):
+# Function Defination
+def WriteNumbers(FName):
 
-    fobj = open(filename,'w')
+    # Open the File into Write Mode.
+    fobj = open(FName, "w")
 
-    print("Enter 10 numbers: ")
+    print("Enter 10 Numbers : ")
+
+    # Accept 10 Numbers from the User.
     for i in range(10):
-        num = int(input())
-        fobj.write(str(num)+"\n") 
-    
-    print("Numbers added successfully!")
+        iNo = int(input())
 
+        # Write 10 numbers into the File
+        fobj.write(str(iNo) + "\n")
+
+    # File is Close
     fobj.close()
 
-def main():
-    if (len(sys.argv) == 2):
-        if(sys.argv[1] == "--h" or sys.argv[1] == sys.argv[1] == "--H"):
-            print("This application is used to take 10 numbers from user and save them into file")
+    print("Number Added Successfully into the File")
 
-        elif(sys.argv[1] == "--u" or sys.argv[1] == sys.argv[1] == "--U"):
-            print("Use the given script as ")
-            print("ScriptName.py FileName")
+# Main Function
+def main():
+
+    if(len(sys.argv) == 2):
+        if((sys.argv[1] == '--h') or (sys.argv[1] == '--H')):
+            print("This application accepts 10 numbers from user and writes them into a file, one per line.")
+        
+        elif((sys.argv[1] == '--u') or (sys.argv[1] == '--H')):
+            print("Use the given scripts as :")
+            print("python ScriptName.py FileName")
 
         else:
-            add_numbers_to_file(sys.argv[1])
-
+            WriteNumbers(sys.argv[1])        # Function Call
+    
     else:
-      print("Invalid number of command line arguments")
-      print("Use the given flags as :")
-      print("--h: Used to display the help")
-      print("--u: Used to display the usage")
+        print("Invalid Number of Command Line Arguments.")
+        print("Use the given Flags as : ")
+        print("--h : used to Display the Help")
+        print("--u : used to Display the Usage")
 
+# Starter
 if __name__ == "__main__":
-    main()
+    main()                  # Function Call.
