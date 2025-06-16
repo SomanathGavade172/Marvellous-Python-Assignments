@@ -1,27 +1,37 @@
 '''
-    2. Write a program to read and display the contents of a file data.txt.
+    2. Write a program to read and display the contents of a file Data.txt.
 
 '''
-
+# Import os
 import os
 
-def display_file_contents(filename):
+# Function Defination
+def DisplayData(FileName):
 
-    if not os.path.exists(filename):
-      print(f"{filename} does not exist in the current directory.")
-      exit()
+    # Check File is Precent Or Not in the Current Directory
+    bRet = os.path.exists(FileName)
 
-    fobj = open(filename, 'r')
+    if(bRet == True):
 
-    data = fobj.read()
+        # Open the File in Read Mode
+        fobj = open(FileName, "r")
 
-    print(data)
+        # Read the Data into the File
+        Data = fobj.read()
 
-    fobj.close()
+        # Dispaly Result
+        print("Data Read from the File is : \n", Data)
 
-    
+        # File Close
+        fobj.close()
+
+    else:
+        print("File is Not Precent in the Current Directory")
+
+# Main Function
 def main():
-    display_file_contents("data.txt")
+    DisplayData("Data.txt") # Function Call
 
+# Starter
 if __name__ == "__main__":
-    main()
+    main()                  # Function Call
