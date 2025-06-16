@@ -2,51 +2,61 @@
     3. Write a Python script to count the number of lines, words, and characters in a given file.
 
 '''
-
+# Import Module os & sys
 import os
 import sys
 
-def file_content_info(filename):
-    if not os.path.exists(filename):
-        print(f"{filename} does not exist in the current directory.")
-        exit()
-    
-    fobj = open(filename,'r')
-    data = fobj.read()
+# Function Defination
+def DisplayFileInfo(FName):
 
-    number_of_characters = len(data)
+    # Check File is Precent in the Current Directory 
+    bRet = os.path.exists(FName)
 
-    print('Number of characters in text file: ', number_of_characters)
+    if(bRet == False):
+        print("File is not Present in the Current Directory..!")
+        exit
 
-    words = data.split()
+    # Open the Filoe into Read Mode.
+    fobj = open(FName, "r")
 
-    print('Number of words in text file : ', len(words))
+    # Read the Data into the File
+    Data = fobj.read()
 
-    with open(filename, 'r') as fp:
-        for count, line in enumerate(fp):
-            pass
-    
-    print('Number of lines in text file : ', count+1) #As counting start from 0
-    # print(x)
+    # Logic to Count Number of Lines.
+    Lines = Data.splitlines()
+    print("Number of Lines Present into the File is : ", len(Lines))
+
+    # Logic to Count Number of Words.
+    words = Data.split()
+    print("Number of Words Present into the File is : ", len(words))
+
+    # Logic to Count Number of Characters.
+    Characters = len(Data)
+    print("Number of Characters Present into the File is : ", Characters)
+
+    # Close the File.
     fobj.close()
 
+# Main Function
 def main():
-    if (len(sys.argv) == 2):
-        if(sys.argv[1] == "--h" or sys.argv[1] == sys.argv[1] == "--H"):
-            print("This application is used to count the number of lines, words, and characters in a given file")
-
-        elif(sys.argv[1] == "--u" or sys.argv[1] == sys.argv[1] == "--U"):
-            print("Use the given script as ")
-            print("ScriptName.py FileName")
+    
+    if(len(sys.argv) == 2):
+        if((sys.argv[1] == '--h') or (sys.argv[1] == '--H')):
+            print("This Application is used to Count Number of Lines, World & Characters.")
+        
+        elif((sys.argv[1] == '--u') or (sys.argv[1] == '--H')):
+            print("Use the given scripts as :")
+            print("python ScriptName.py FileName")
 
         else:
-            file_content_info(sys.argv[1])
-
+            DisplayFileInfo(sys.argv[1])        # Function Call
+    
     else:
-      print("Invalid number of command line arguments")
-      print("Use the given flags as :")
-      print("--h: Used to display the help")
-      print("--u: Used to display the usage")
+        print("Invalid Number of Command Line Arguments.")
+        print("Use the given Flags as : ")
+        print("--h : used to Display the Help")
+        print("--u : used to Display the Usage")    
 
+# Starter
 if __name__ == "__main__":
-    main()
+    main()                  # Function Call
