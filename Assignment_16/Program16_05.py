@@ -2,39 +2,55 @@
     5. Write a program to read a file line by line and display only those lines that contain more than 5 words.
 
 '''
-import sys
+# Import Module os and sys
 import os
+import sys
 
-def print_specific_lines(filename):
-    if not os.path.exists(filename):
-        print(f"{filename} does not exist in the current directory.")
+# Function Defination
+def DisplayLine(FName):
+    
+    # Check File is Precent in the Current Directory
+    bRet = os.path.exists(FName)
+
+    if(bRet == False):
+        print("File is not Present in the Current Directory")
         exit()
 
-    with open(filename) as fobj:
-        
-        for line in fobj:
-            words = line.split()
+    # Open the File into Read Mode
+    fobj = open(FName, "r")
 
-            if (len(words) >= 5):
-                print(line)
-        
+    # read the Data into the File.
+    Data = fobj.readlines()
+
+    # Logic to Check Line conations More than 5 words.
+    for Line in Data:
+        Word = Line.split()
+
+        if(len(Word) >= 5):
+            print(Line.strip())     # strip() - Used to remove lines.
+
+    # File is Close    
+    fobj.close()
+
+# Main Function
 def main():
-    if (len(sys.argv) == 2):
-        if(sys.argv[1] == "--h" or sys.argv[1] == sys.argv[1] == "--H"):
-            print("This application is used to take 10 numbers from user and save them into file")
-
-        elif(sys.argv[1] == "--u" or sys.argv[1] == sys.argv[1] == "--U"):
-            print("Use the given script as ")
-            print("ScriptName.py FileName")
+    if(len(sys.argv) == 2):
+        if((sys.argv[1] == '--h') or (sys.argv[1] == '--H')):
+            print("This Application is used to Display only those lines from file which contain more than 5 words.")
+        
+        elif((sys.argv[1] == '--u') or (sys.argv[1] == '--H')):
+            print("Use the given scripts as :")
+            print("python ScriptName.py FileName")
 
         else:
-            print_specific_lines(sys.argv[1])
-
+            DisplayLine(sys.argv[1])        # Function Call
+    
     else:
-      print("Invalid number of command line arguments")
-      print("Use the given flags as :")
-      print("--h: Used to display the help")
-      print("--u: Used to display the usage")
+        print("Invalid Number of Command Line Arguments.")
+        print("Use the given Flags as : ")
+        print("--h : used to Display the Help")
+        print("--u : used to Display the Usage")
 
+# Starter
 if __name__ == "__main__":
-    main()
+    main()                  # Function Call
