@@ -4,32 +4,44 @@
     Input : Demo.txt Marvellous
     Search “Marvellous” in Demo.txt
 
-'''
+    Output:
+            Frequency of String is :  3
 
+'''
+# Import Module sys and os
 import sys
 import os
 
+# Main Function
 def main():
 
-    print("Number of Command Line Arguments is : ", len(sys.argv))
-
+    # check Number of Arguments in command line 
     if(len(sys.argv) != 3):
         print("Invalid Input..!")
         return
     
+    # Check File is Precent or Not
     bRet = os.path.exists(sys.argv[1])
 
     if(bRet == True):
-        print("File is Precent is Current Directory")
+        # Open the File
+        fobj = open(sys.argv[1], "r")
 
-        fobj = open(sys.argv[1], "w")
+        # Read the data into the File
+        Data = fobj.read()
 
-        fobj.write("Frequency of Input String is : ", iCount)
+        # Count the Number of String into the file
+        iCount = Data.count(sys.argv[2])
 
+        # Display Result
+        print("Frequency of String is : ", iCount)
+
+        # File Close
         fobj.close()
 
     else:
         print("Given",sys.argv[1], "is not precent in the Current Directory")
-        
+
+# Starter       
 if __name__ == "__main__":
-    main()
+    main()                  # Function Call
