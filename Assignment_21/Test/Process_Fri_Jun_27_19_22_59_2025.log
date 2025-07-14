@@ -1,0 +1,618 @@
+{'username': 'root', 'name': 'systemd', 'pid': 1, 'vms': 16.500197550375347}
+
+{'username': 'root', 'name': 'kthreadd', 'pid': 2, 'vms': 0.0}
+
+{'username': 'root', 'name': 'pool_workqueue_release', 'pid': 3, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/R-rcu_g', 'pid': 4, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/R-rcu_p', 'pid': 5, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/R-slub_', 'pid': 6, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/R-netns', 'pid': 7, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/0:0H-events_highpri', 'pid': 10, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/R-mm_pe', 'pid': 12, 'vms': 0.0}
+
+{'username': 'root', 'name': 'rcu_tasks_kthread', 'pid': 13, 'vms': 0.0}
+
+{'username': 'root', 'name': 'rcu_tasks_rude_kthread', 'pid': 14, 'vms': 0.0}
+
+{'username': 'root', 'name': 'rcu_tasks_trace_kthread', 'pid': 15, 'vms': 0.0}
+
+{'username': 'root', 'name': 'ksoftirqd/0', 'pid': 16, 'vms': 0.0}
+
+{'username': 'root', 'name': 'rcu_preempt', 'pid': 17, 'vms': 0.0}
+
+{'username': 'root', 'name': 'migration/0', 'pid': 18, 'vms': 0.0}
+
+{'username': 'root', 'name': 'idle_inject/0', 'pid': 19, 'vms': 0.0}
+
+{'username': 'root', 'name': 'cpuhp/0', 'pid': 20, 'vms': 0.0}
+
+{'username': 'root', 'name': 'cpuhp/2', 'pid': 21, 'vms': 0.0}
+
+{'username': 'root', 'name': 'idle_inject/2', 'pid': 22, 'vms': 0.0}
+
+{'username': 'root', 'name': 'migration/2', 'pid': 23, 'vms': 0.0}
+
+{'username': 'root', 'name': 'ksoftirqd/2', 'pid': 24, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/2:0H-events_highpri', 'pid': 26, 'vms': 0.0}
+
+{'username': 'root', 'name': 'cpuhp/4', 'pid': 27, 'vms': 0.0}
+
+{'username': 'root', 'name': 'idle_inject/4', 'pid': 28, 'vms': 0.0}
+
+{'username': 'root', 'name': 'migration/4', 'pid': 29, 'vms': 0.0}
+
+{'username': 'root', 'name': 'ksoftirqd/4', 'pid': 30, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/4:0H-events_highpri', 'pid': 32, 'vms': 0.0}
+
+{'username': 'root', 'name': 'cpuhp/6', 'pid': 33, 'vms': 0.0}
+
+{'username': 'root', 'name': 'idle_inject/6', 'pid': 34, 'vms': 0.0}
+
+{'username': 'root', 'name': 'migration/6', 'pid': 35, 'vms': 0.0}
+
+{'username': 'root', 'name': 'ksoftirqd/6', 'pid': 36, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/6:0H-events_highpri', 'pid': 38, 'vms': 0.0}
+
+{'username': 'root', 'name': 'cpuhp/1', 'pid': 39, 'vms': 0.0}
+
+{'username': 'root', 'name': 'idle_inject/1', 'pid': 40, 'vms': 0.0}
+
+{'username': 'root', 'name': 'migration/1', 'pid': 41, 'vms': 0.0}
+
+{'username': 'root', 'name': 'ksoftirqd/1', 'pid': 42, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/1:0H-events_highpri', 'pid': 44, 'vms': 0.0}
+
+{'username': 'root', 'name': 'cpuhp/3', 'pid': 45, 'vms': 0.0}
+
+{'username': 'root', 'name': 'idle_inject/3', 'pid': 46, 'vms': 0.0}
+
+{'username': 'root', 'name': 'migration/3', 'pid': 47, 'vms': 0.0}
+
+{'username': 'root', 'name': 'ksoftirqd/3', 'pid': 48, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/3:0H-events_highpri', 'pid': 50, 'vms': 0.0}
+
+{'username': 'root', 'name': 'cpuhp/5', 'pid': 51, 'vms': 0.0}
+
+{'username': 'root', 'name': 'idle_inject/5', 'pid': 52, 'vms': 0.0}
+
+{'username': 'root', 'name': 'migration/5', 'pid': 53, 'vms': 0.0}
+
+{'username': 'root', 'name': 'ksoftirqd/5', 'pid': 54, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/5:0-cgroup_destroy', 'pid': 55, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/5:0H-events_highpri', 'pid': 56, 'vms': 0.0}
+
+{'username': 'root', 'name': 'cpuhp/7', 'pid': 57, 'vms': 0.0}
+
+{'username': 'root', 'name': 'idle_inject/7', 'pid': 58, 'vms': 0.0}
+
+{'username': 'root', 'name': 'migration/7', 'pid': 59, 'vms': 0.0}
+
+{'username': 'root', 'name': 'ksoftirqd/7', 'pid': 60, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/7:0H-events_highpri', 'pid': 62, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kdevtmpfs', 'pid': 63, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/R-inet_', 'pid': 64, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kauditd', 'pid': 66, 'vms': 0.0}
+
+{'username': 'root', 'name': 'khungtaskd', 'pid': 67, 'vms': 0.0}
+
+{'username': 'root', 'name': 'oom_reaper', 'pid': 68, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/R-write', 'pid': 70, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kcompactd0', 'pid': 71, 'vms': 0.0}
+
+{'username': 'root', 'name': 'ksmd', 'pid': 72, 'vms': 0.0}
+
+{'username': 'root', 'name': 'khugepaged', 'pid': 73, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/R-kinte', 'pid': 74, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/R-kbloc', 'pid': 75, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/R-blkcg', 'pid': 76, 'vms': 0.0}
+
+{'username': 'root', 'name': 'irq/9-acpi', 'pid': 77, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/R-tpm_d', 'pid': 80, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/R-ata_s', 'pid': 81, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/R-md', 'pid': 82, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/R-md_bi', 'pid': 83, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/R-edac-', 'pid': 84, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/R-devfr', 'pid': 85, 'vms': 0.0}
+
+{'username': 'root', 'name': 'watchdogd', 'pid': 86, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/2:1H-kblockd', 'pid': 87, 'vms': 0.0}
+
+{'username': 'root', 'name': 'irq/25-AMD-Vi', 'pid': 89, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kswapd0', 'pid': 90, 'vms': 0.0}
+
+{'username': 'root', 'name': 'ecryptfs-kthread', 'pid': 91, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/R-kthro', 'pid': 92, 'vms': 0.0}
+
+{'username': 'root', 'name': 'irq/26-aerdrv', 'pid': 93, 'vms': 0.0}
+
+{'username': 'root', 'name': 'irq/27-aerdrv', 'pid': 94, 'vms': 0.0}
+
+{'username': 'root', 'name': 'irq/28-aerdrv', 'pid': 95, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/R-acpi_', 'pid': 100, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/2:2-cgroup_destroy', 'pid': 102, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/R-mld', 'pid': 103, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/R-ipv6_', 'pid': 104, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/R-kstrp', 'pid': 111, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/R-charg', 'pid': 127, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/0:1H-kblockd', 'pid': 146, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/4:1H-kblockd', 'pid': 150, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/6:1H-kblockd', 'pid': 151, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/5:1H-kblockd', 'pid': 163, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/7:1H-kblockd', 'pid': 164, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/1:1H-kblockd', 'pid': 165, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/3:1H-kblockd', 'pid': 166, 'vms': 0.0}
+
+{'username': 'root', 'name': 'irq/30-DELL0A12:00', 'pid': 182, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/R-nvme-', 'pid': 204, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/R-nvme-', 'pid': 205, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/R-nvme-', 'pid': 206, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/R-nvme-', 'pid': 207, 'vms': 0.0}
+
+{'username': 'root', 'name': 'jbd2/nvme0n1p2-8', 'pid': 246, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/R-ext4-', 'pid': 247, 'vms': 0.0}
+
+{'username': 'root', 'name': 'systemd-journald', 'pid': 290, 'vms': 6.413670485973923}
+
+{'username': 'root', 'name': 'kworker/1:3-events', 'pid': 311, 'vms': 0.0}
+
+{'username': 'root', 'name': 'systemd-udevd', 'pid': 348, 'vms': 2.6716712761754247}
+
+{'username': 'root', 'name': 'ccp-1-q2', 'pid': 404, 'vms': 0.0}
+
+{'username': 'root', 'name': 'ccp-1-q3', 'pid': 405, 'vms': 0.0}
+
+{'username': 'root', 'name': 'ccp-1-q4', 'pid': 406, 'vms': 0.0}
+
+{'username': 'root', 'name': 'hwrng', 'pid': 407, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/R-cfg80', 'pid': 417, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/R-crypt', 'pid': 436, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/R-ath10', 'pid': 502, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/R-ath10', 'pid': 503, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/R-ath10', 'pid': 504, 'vms': 0.0}
+
+{'username': 'systemd-oom', 'name': 'systemd-oomd', 'pid': 506, 'vms': 1.4654286843145001}
+
+{'username': 'systemd-resolve', 'name': 'systemd-resolved', 'pid': 510, 'vms': 2.6689055709205847}
+
+{'username': 'systemd-timesync', 'name': 'systemd-timesyncd', 'pid': 511, 'vms': 8.842354800474121}
+
+{'username': 'root', 'name': 'accounts-daemon', 'pid': 582, 'vms': 23.865270644014224}
+
+{'username': 'root', 'name': 'acpid', 'pid': 583, 'vms': 0.27815092848676415}
+
+{'username': 'avahi', 'name': 'avahi-daemon', 'pid': 585, 'vms': 0.7613591465823785}
+
+{'username': 'root', 'name': 'bluetoothd', 'pid': 586, 'vms': 1.0493875938364283}
+
+{'username': 'root', 'name': 'cron', 'pid': 588, 'vms': 0.9379691821414461}
+
+{'username': 'messagebus', 'name': 'dbus-daemon', 'pid': 590, 'vms': 1.1031212959304624}
+
+{'username': 'root', 'name': 'NetworkManager', 'pid': 591, 'vms': 33.14421177400237}
+
+{'username': 'root', 'name': 'irqbalance', 'pid': 596, 'vms': 8.178980640063216}
+
+{'username': 'root', 'name': 'kworker/R-amdgp', 'pid': 601, 'vms': 0.0}
+
+{'username': 'root', 'name': 'polkitd', 'pid': 606, 'vms': 23.995258790991702}
+
+{'username': 'root', 'name': 'power-profiles-daemon', 'pid': 610, 'vms': 23.715527459502173}
+
+{'username': 'syslog', 'name': 'rsyslogd', 'pid': 613, 'vms': 21.967996839193994}
+
+{'username': 'root', 'name': 'snapd', 'pid': 622, 'vms': 219.12840774397472}
+
+{'username': 'root', 'name': 'switcheroo-control', 'pid': 626, 'vms': 23.360331884630583}
+
+{'username': 'root', 'name': 'kworker/R-ttm', 'pid': 629, 'vms': 0.0}
+
+{'username': 'root', 'name': 'systemd-logind', 'pid': 631, 'vms': 4.765310154089293}
+
+{'username': 'root', 'name': 'udisksd', 'pid': 637, 'vms': 38.85539312524694}
+
+{'username': 'root', 'name': 'wpa_supplicant', 'pid': 644, 'vms': 1.7593836428289213}
+
+{'username': 'avahi', 'name': 'avahi-daemon', 'pid': 657, 'vms': 0.7352824970367444}
+
+{'username': 'root', 'name': 'ModemManager', 'pid': 676, 'vms': 31.417621493480837}
+
+{'username': 'root', 'name': 'cupsd', 'pid': 696, 'vms': 7.212959304622679}
+
+{'username': 'root', 'name': 'pured-linux-x64', 'pid': 708, 'vms': 57.96167522718293}
+
+{'username': 'root', 'name': 'kworker/R-amdgp', 'pid': 724, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/R-amdgp', 'pid': 725, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/R-amdgp', 'pid': 731, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/R-amdgp', 'pid': 732, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/R-dm_vb', 'pid': 733, 'vms': 0.0}
+
+{'username': 'root', 'name': 'unattended-upgr', 'pid': 794, 'vms': 11.672461477676807}
+
+{'username': 'root', 'name': 'apache2', 'pid': 798, 'vms': 1.3796918214144607}
+
+{'username': 'www-data', 'name': 'apache2', 'pid': 802, 'vms': 192.03951007506913}
+
+{'username': 'www-data', 'name': 'apache2', 'pid': 804, 'vms': 192.03951007506913}
+
+{'username': 'root', 'name': 'gdm3', 'pid': 807, 'vms': 23.837613591465825}
+
+{'username': 'root', 'name': 'card1-crtc0', 'pid': 811, 'vms': 0.0}
+
+{'username': 'root', 'name': 'card1-crtc1', 'pid': 812, 'vms': 0.0}
+
+{'username': 'root', 'name': 'card1-crtc2', 'pid': 813, 'vms': 0.0}
+
+{'username': 'root', 'name': 'card1-crtc3', 'pid': 814, 'vms': 0.0}
+
+{'username': 'postgres', 'name': 'postgres', 'pid': 821, 'vms': 22.078625049387593}
+
+{'username': 'postgres', 'name': 'postgres', 'pid': 891, 'vms': 22.09166337416041}
+
+{'username': 'postgres', 'name': 'postgres', 'pid': 893, 'vms': 22.093243777163178}
+
+{'username': 'postgres', 'name': 'postgres', 'pid': 908, 'vms': 22.078625049387593}
+
+{'username': 'postgres', 'name': 'postgres', 'pid': 910, 'vms': 22.233109442907942}
+
+{'username': 'postgres', 'name': 'postgres', 'pid': 913, 'vms': 22.233899644409323}
+
+{'username': 'rtkit', 'name': 'rtkit-daemon', 'pid': 1091, 'vms': 15.211774002370605}
+
+{'username': 'root', 'name': 'upowerd', 'pid': 1248, 'vms': 23.967996839193994}
+
+{'username': 'root', 'name': 'packagekitd', 'pid': 1255, 'vms': 36.82813117344923}
+
+{'username': 'colord', 'name': 'colord', 'pid': 1489, 'vms': 24.236665349664165}
+
+{'username': 'root', 'name': 'cups-browsed', 'pid': 1672, 'vms': 17.00869221651521}
+
+{'username': 'ollama', 'name': 'ollama', 'pid': 1674, 'vms': 238.64322402212565}
+
+{'username': 'kernoops', 'name': 'kerneloops', 'pid': 1677, 'vms': 1.2931647570130382}
+
+{'username': 'kernoops', 'name': 'kerneloops', 'pid': 1687, 'vms': 1.2931647570130382}
+
+{'username': 'root', 'name': 'gdm-session-worker', 'pid': 1732, 'vms': 31.42947451600158}
+
+{'username': 'mahesh', 'name': 'systemd', 'pid': 1783, 'vms': 1.788621098380087}
+
+{'username': 'mahesh', 'name': '(sd-pam)', 'pid': 1784, 'vms': 10.351244567364677}
+
+{'username': 'mahesh', 'name': 'pipewire', 'pid': 1790, 'vms': 11.459502173054128}
+
+{'username': 'mahesh', 'name': 'pipewire-media-session', 'pid': 1791, 'vms': 3.2674832082180956}
+
+{'username': 'mahesh', 'name': 'pulseaudio', 'pid': 1792, 'vms': 225.84946661398658}
+
+{'username': 'mahesh', 'name': 'gnome-keyring-daemon', 'pid': 1806, 'vms': 23.805215329909128}
+
+{'username': 'mahesh', 'name': 'dbus-daemon', 'pid': 1820, 'vms': 1.024101145792177}
+
+{'username': 'mahesh', 'name': 'xdg-document-portal', 'pid': 1821, 'vms': 60.41841169498222}
+
+{'username': 'mahesh', 'name': 'xdg-permission-store', 'pid': 1825, 'vms': 23.325958119320426}
+
+{'username': 'mahesh', 'name': 'fusermount3', 'pid': 1831, 'vms': 0.276175424733307}
+
+{'username': 'mahesh', 'name': 'gdm-wayland-session', 'pid': 1852, 'vms': 16.040300276570527}
+
+{'username': 'mahesh', 'name': 'gnome-session-binary', 'pid': 1856, 'vms': 22.03121295930462}
+
+{'username': 'mahesh', 'name': 'gnome-session-ctl', 'pid': 1903, 'vms': 9.078625049387593}
+
+{'username': 'mahesh', 'name': 'gvfsd', 'pid': 1914, 'vms': 23.76926116159621}
+
+{'username': 'mahesh', 'name': 'gvfsd-fuse', 'pid': 1922, 'vms': 37.62307388384038}
+
+{'username': 'mahesh', 'name': 'gnome-session-binary', 'pid': 1924, 'vms': 44.01619913077835}
+
+{'username': 'mahesh', 'name': 'at-spi-bus-launcher', 'pid': 1947, 'vms': 30.58435401027262}
+
+{'username': 'mahesh', 'name': 'gnome-shell', 'pid': 1951, 'vms': 557.3804820229159}
+
+{'username': 'mahesh', 'name': 'dbus-daemon', 'pid': 1958, 'vms': 0.8459107072303438}
+
+{'username': 'root', 'name': 'krfcommd', 'pid': 1964, 'vms': 0.0}
+
+{'username': 'mahesh', 'name': 'gnome-shell-calendar-server', 'pid': 2007, 'vms': 57.56183326748321}
+
+{'username': 'mahesh', 'name': 'evolution-source-registry', 'pid': 2013, 'vms': 92.96009482418016}
+
+{'username': 'mahesh', 'name': 'goa-daemon', 'pid': 2020, 'vms': 58.9909126827341}
+
+{'username': 'mahesh', 'name': 'evolution-calendar-factory', 'pid': 2023, 'vms': 129.9541683129198}
+
+{'username': 'mahesh', 'name': 'dconf-service', 'pid': 2024, 'vms': 15.528249703674437}
+
+{'username': 'mahesh', 'name': 'goa-identity-service', 'pid': 2035, 'vms': 33.42591860924536}
+
+{'username': 'mahesh', 'name': 'gvfs-udisks2-volume-monitor', 'pid': 2036, 'vms': 31.219676017384433}
+
+{'username': 'mahesh', 'name': 'evolution-addressbook-factory', 'pid': 2052, 'vms': 73.70090873172659}
+
+{'username': 'mahesh', 'name': 'gvfs-gphoto2-volume-monitor', 'pid': 2054, 'vms': 23.463848281311734}
+
+{'username': 'mahesh', 'name': 'gvfs-mtp-volume-monitor', 'pid': 2060, 'vms': 23.356380877123666}
+
+{'username': 'mahesh', 'name': 'gvfs-afc-volume-monitor', 'pid': 2070, 'vms': 31.135124456736467}
+
+{'username': 'mahesh', 'name': 'gvfs-goa-volume-monitor', 'pid': 2078, 'vms': 23.373765310154088}
+
+{'username': 'mahesh', 'name': 'gvfsd-trash', 'pid': 2084, 'vms': 31.182141446068748}
+
+{'username': 'mahesh', 'name': 'gjs', 'pid': 2098, 'vms': 289.5258790991703}
+
+{'username': 'mahesh', 'name': 'at-spi2-registryd', 'pid': 2099, 'vms': 16.06953773212169}
+
+{'username': 'mahesh', 'name': 'sh', 'pid': 2114, 'vms': 0.28565784274990125}
+
+{'username': 'mahesh', 'name': 'gsd-a11y-settings', 'pid': 2115, 'vms': 30.663374160410903}
+
+{'username': 'mahesh', 'name': 'ibus-daemon', 'pid': 2118, 'vms': 31.161596207032794}
+
+{'username': 'mahesh', 'name': 'gsd-color', 'pid': 2122, 'vms': 60.266693006716714}
+
+{'username': 'mahesh', 'name': 'gsd-datetime', 'pid': 2123, 'vms': 37.08850256815488}
+
+{'username': 'mahesh', 'name': 'gsd-housekeeping', 'pid': 2124, 'vms': 30.913472935598577}
+
+{'username': 'mahesh', 'name': 'gsd-keyboard', 'pid': 2126, 'vms': 33.63295140260767}
+
+{'username': 'mahesh', 'name': 'gsd-media-keys', 'pid': 2128, 'vms': 70.79375740813907}
+
+{'username': 'mahesh', 'name': 'gsd-power', 'pid': 2129, 'vms': 70.68115369419202}
+
+{'username': 'mahesh', 'name': 'gsd-print-notifications', 'pid': 2135, 'vms': 24.68075859344133}
+
+{'username': 'mahesh', 'name': 'gsd-rfkill', 'pid': 2136, 'vms': 45.22520742789411}
+
+{'username': 'mahesh', 'name': 'gsd-screensaver-proxy', 'pid': 2137, 'vms': 23.339786645594625}
+
+{'username': 'mahesh', 'name': 'gsd-sharing', 'pid': 2138, 'vms': 46.03753457131569}
+
+{'username': 'mahesh', 'name': 'gsd-smartcard', 'pid': 2145, 'vms': 38.13196365073094}
+
+{'username': 'mahesh', 'name': 'gsd-sound', 'pid': 2151, 'vms': 31.544053733702093}
+
+{'username': 'mahesh', 'name': 'gsd-wacom', 'pid': 2154, 'vms': 40.98340576847096}
+
+{'username': 'mahesh', 'name': 'gsd-disk-utility-notify', 'pid': 2180, 'vms': 22.942710391149742}
+
+{'username': 'mahesh', 'name': 'evolution-alarm-notify', 'pid': 2185, 'vms': 82.75740813907547}
+
+{'username': 'mahesh', 'name': 'ibus-dconf', 'pid': 2188, 'vms': 23.442117740023708}
+
+{'username': 'mahesh', 'name': 'ibus-extension-gtk3', 'pid': 2190, 'vms': 34.35914658237851}
+
+{'username': 'mahesh', 'name': 'ibus-portal', 'pid': 2198, 'vms': 23.435401027261953}
+
+{'username': 'mahesh', 'name': 'snap-store', 'pid': 2264, 'vms': 116.41050967996838}
+
+{'username': 'mahesh', 'name': 'gsd-printer', 'pid': 2304, 'vms': 33.81627815092849}
+
+{'username': 'mahesh', 'name': 'ibus-engine-simple', 'pid': 2309, 'vms': 16.148162781509285}
+
+{'username': 'mahesh', 'name': 'snapd-desktop-integration', 'pid': 2330, 'vms': 3.864875543263532}
+
+{'username': 'mahesh', 'name': 'snapd-desktop-integration', 'pid': 2426, 'vms': 42.66534966416436}
+
+{'username': 'mahesh', 'name': 'xdg-desktop-portal', 'pid': 2445, 'vms': 61.61793757408139}
+
+{'username': 'mahesh', 'name': 'xdg-desktop-portal-gnome', 'pid': 2454, 'vms': 66.8850256815488}
+
+{'username': 'mahesh', 'name': 'gjs', 'pid': 2507, 'vms': 289.53733702094036}
+
+{'username': 'mahesh', 'name': 'xdg-desktop-portal-gtk', 'pid': 2544, 'vms': 34.02607664954564}
+
+{'username': 'mahesh', 'name': 'gvfsd-metadata', 'pid': 2598, 'vms': 16.290399051758197}
+
+{'username': 'mahesh', 'name': 'chrome', 'pid': 2728, 'vms': 3435.5934413275386}
+
+{'username': 'mahesh', 'name': 'cat', 'pid': 2733, 'vms': 0.8407743974713552}
+
+{'username': 'mahesh', 'name': 'cat', 'pid': 2734, 'vms': 0.8407743974713552}
+
+{'username': 'mahesh', 'name': 'chrome_crashpad_handler', 'pid': 2736, 'vms': 3316.63413670486}
+
+{'username': 'mahesh', 'name': 'chrome_crashpad_handler', 'pid': 2738, 'vms': 3315.721849071513}
+
+{'username': 'mahesh', 'name': 'chrome', 'pid': 2744, 'vms': 3353.3069932832873}
+
+{'username': 'mahesh', 'name': 'chrome', 'pid': 2745, 'vms': 3353.3058079810353}
+
+{'username': 'mahesh', 'name': 'chrome', 'pid': 2747, 'vms': 3353.3081785855393}
+
+{'username': 'mahesh', 'name': 'Xwayland', 'pid': 2758, 'vms': 98.74832082180956}
+
+{'username': 'mahesh', 'name': 'gsd-xsettings', 'pid': 2771, 'vms': 82.20940339786645}
+
+{'username': 'mahesh', 'name': 'ibus-x11', 'pid': 2801, 'vms': 19.1797708415646}
+
+{'username': 'mahesh', 'name': 'chrome', 'pid': 2841, 'vms': 3397.4488344527854}
+
+{'username': 'mahesh', 'name': 'chrome', 'pid': 2843, 'vms': 3356.698933227973}
+
+{'username': 'mahesh', 'name': 'chrome', 'pid': 2853, 'vms': 3359.103911497432}
+
+{'username': 'mahesh', 'name': 'chrome', 'pid': 2965, 'vms': 144357.2003160806}
+
+{'username': 'mahesh', 'name': 'chrome', 'pid': 3009, 'vms': 144357.2003160806}
+
+{'username': 'mahesh', 'name': 'chrome', 'pid': 3150, 'vms': 144361.9944685895}
+
+{'username': 'mahesh', 'name': 'chrome', 'pid': 3177, 'vms': 144357.2003160806}
+
+{'username': 'mahesh', 'name': 'chrome', 'pid': 3203, 'vms': 3379.7862504938757}
+
+{'username': 'mahesh', 'name': 'update-notifier', 'pid': 3304, 'vms': 41.52429869616752}
+
+{'username': 'mahesh', 'name': 'nautilus', 'pid': 4676, 'vms': 93.30027657052548}
+
+{'username': 'mahesh', 'name': 'gvfsd-network', 'pid': 5623, 'vms': 38.397866455946264}
+
+{'username': 'mahesh', 'name': 'gvfsd-dnssd', 'pid': 5672, 'vms': 31.294745160015804}
+
+{'username': 'root', 'name': 'kworker/0:0-events_long', 'pid': 6868, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/7:0-mm_percpu_wq', 'pid': 7870, 'vms': 0.0}
+
+{'username': 'mahesh', 'name': 'tracker-miner-fs-3', 'pid': 8048, 'vms': 124.85539312524693}
+
+{'username': 'mahesh', 'name': 'chrome', 'pid': 9522, 'vms': 144187.81311734492}
+
+{'username': 'mahesh', 'name': 'chrome', 'pid': 10724, 'vms': 144357.23192414065}
+
+{'username': 'mahesh', 'name': 'gnome-terminal-server', 'pid': 10741, 'vms': 54.623864085341765}
+
+{'username': 'mahesh', 'name': 'bash', 'pid': 10759, 'vms': 1.4907151323587515}
+
+{'username': 'mahesh', 'name': 'code', 'pid': 11019, 'vms': 144375.2734097195}
+
+{'username': 'mahesh', 'name': 'code', 'pid': 11023, 'vms': 3338.7214539707625}
+
+{'username': 'mahesh', 'name': 'code', 'pid': 11024, 'vms': 3338.7202686685105}
+
+{'username': 'mahesh', 'name': 'code', 'pid': 11026, 'vms': 3338.723429474516}
+
+{'username': 'mahesh', 'name': 'chrome_crashpad_handler', 'pid': 11045, 'vms': 3316.476491505334}
+
+{'username': 'mahesh', 'name': 'code', 'pid': 11062, 'vms': 3380.4385618332676}
+
+{'username': 'mahesh', 'name': 'code', 'pid': 11066, 'vms': 3345.309758988542}
+
+{'username': 'root', 'name': 'kworker/u33:11-ttm', 'pid': 11107, 'vms': 0.0}
+
+{'username': 'mahesh', 'name': 'code', 'pid': 11122, 'vms': 145515.4784670091}
+
+{'username': 'mahesh', 'name': 'code', 'pid': 11138, 'vms': 144325.9758988542}
+
+{'username': 'mahesh', 'name': 'code', 'pid': 11139, 'vms': 144327.64954563414}
+
+{'username': 'mahesh', 'name': 'code', 'pid': 11140, 'vms': 144496.34492295535}
+
+{'username': 'mahesh', 'name': 'pet', 'pid': 11191, 'vms': 0.5246937969182142}
+
+{'username': 'mahesh', 'name': 'code', 'pid': 11292, 'vms': 144327.66772026866}
+
+{'username': 'mahesh', 'name': 'bash', 'pid': 11320, 'vms': 1.49585144211774}
+
+{'username': 'mahesh', 'name': 'code', 'pid': 11477, 'vms': 144150.3235875148}
+
+{'username': 'mahesh', 'name': 'code', 'pid': 11525, 'vms': 144828.5199525879}
+
+{'username': 'root', 'name': 'kworker/3:1-events', 'pid': 11634, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/2:1-mm_percpu_wq', 'pid': 11924, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/5:1-mm_percpu_wq', 'pid': 12197, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/6:1-mm_percpu_wq', 'pid': 12633, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/0:2-events', 'pid': 14484, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/7:2-mm_percpu_wq', 'pid': 14506, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/1:1-events', 'pid': 14653, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/4:2-mm_percpu_wq', 'pid': 14660, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/3:2-mm_percpu_wq', 'pid': 14661, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/u32:30-events_unbound', 'pid': 14691, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/u32:31-events_unbound', 'pid': 14692, 'vms': 0.0}
+
+{'username': 'mahesh', 'name': 'chrome', 'pid': 15290, 'vms': 144361.58356380876}
+
+{'username': 'mahesh', 'name': 'chrome', 'pid': 15298, 'vms': 144183.719478467}
+
+{'username': 'root', 'name': 'kworker/4:0-cgroup_destroy', 'pid': 15387, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/u33:0-ttm', 'pid': 15770, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/u32:0-gfx_low', 'pid': 15786, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/u32:2-flush-259:0', 'pid': 15788, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/6:0', 'pid': 15933, 'vms': 0.0}
+
+{'username': 'mahesh', 'name': 'gjs', 'pid': 15968, 'vms': 315.8075859344133}
+
+{'username': 'root', 'name': 'kworker/4:1', 'pid': 16023, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/u32:1-flush-259:0', 'pid': 16037, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/u33:1-ttm', 'pid': 16046, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/u32:3-flush-259:0', 'pid': 16054, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/u32:4-events_unbound', 'pid': 16185, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/u33:2-ttm', 'pid': 16186, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/u33:3-ttm', 'pid': 16219, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/u33:4', 'pid': 16220, 'vms': 0.0}
+
+{'username': 'root', 'name': 'kworker/7:1-events', 'pid': 16226, 'vms': 0.0}
+
+{'username': 'mahesh', 'name': 'python3', 'pid': 16238, 'vms': 3.013038324772817}
+
